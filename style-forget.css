@@ -1,0 +1,83 @@
+body {
+  background-image: url(images/WALL.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Audiowide", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  color: #fff;
+}
+
+.locked {
+  width: 60px;
+}
+
+.box {
+  backdrop-filter: blur(8px);
+  background-color: #1f283365;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px #668efc;
+}
+
+h1,
+h2,
+h3 {
+  color: #668efc;
+  margin: 10px 0;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #668efc;
+  border-radius: 8px;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  font-size: 16px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  border-color: #000000;
+
+  outline: none;
+}
+
+button {
+  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0b0c10;
+  color: #7066fc;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  color: #667ffc;
+  background-color: #0b0c109c;
+}
+
+input.ativo {
+  box-shadow: 0 0 10px #4272f6;
+  border-color: #ffffff;
+}
+
+.msg {
+  color: #668efc;
+  margin-top: 15px;
+  font-size: 16px;
+}
